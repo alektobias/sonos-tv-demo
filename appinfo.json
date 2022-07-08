@@ -1,0 +1,12 @@
+{
+  "id": "com.whim.tv",
+  "version": "1.0.0",
+  "type": "web",
+  "main": "index.html",
+  "title": "WHIM TV",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1280x720",
+  "disableBackHistoryAPI": true,
+  "iconColor": "#F16C4E"
+}
