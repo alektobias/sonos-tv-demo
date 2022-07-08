@@ -25,16 +25,19 @@ export default function Home() {
         <script
           type="text/javascript"
           src="/scripts/webOSTVjs-1.2.4/webOSTV.js"
+          async
         ></script>
         <script
           type="text/javascript"
           src="/scripts/spatial_navigation.js"
+          async
         ></script>
         <script
           type="text/javascript"
           src="/scripts/eventListeners.js"
+          async
         ></script>
-        <script type="text/javascript " src="/scripts/whim.js"></script>
+        <script type="text/javascript " src="/scripts/whim.js" async></script>
       </Head>
       <div className="container" id="container">
         <header>
