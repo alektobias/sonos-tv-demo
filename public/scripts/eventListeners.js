@@ -53,7 +53,7 @@ function openModal(modal_id, video_id) {
 }
 async function signIn(email, password) {
   try {
-    const data = await fetch("https://dev.onawhim.com/api/login", {
+    const data = await fetch("/api/login", {
       method: "POST",
       body: JSON.stringify({ email, password }),
       headers: {
@@ -87,7 +87,7 @@ async function signIn(email, password) {
 async function showCommand(assetIds) {
   const token = localStorage.getItem("TOKEN");
   const deviceId = localStorage.getItem("canvas-id");
-  fetch("https://dev.onawhim.com/api/show/asset", {
+  fetch("/api/show/asset", {
     method: "POST",
     body: JSON.stringify([
       {
