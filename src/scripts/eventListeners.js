@@ -189,7 +189,7 @@ function addEventListeners() {
   window.addEventListener("load", function () {
     SpatialNavigation.init();
     SpatialNavigation.add({
-      selector: ".item",
+      selector: ".focusable",
     });
     SpatialNavigation.makeFocusable();
     addEventListeners();

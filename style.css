@@ -223,7 +223,10 @@ input {
 }
 
 input:focus {
-  outline: none;
+  outline-color: #f16c4e;
+}
+button:focus {
+  outline-color: #fff;
 }
 #auth {
   display: none;
@@ -289,3 +292,13 @@ video {
   background-image: url("./src/images/Reuters.png");
   
 }
+input, button {
+  border: 1px solid transparent;
+}
+/* input:focus{
+  border: 1px solid #f16c4e;
+}
+button:focus {
+  outline-color: #f16c4e;
+  border: 1px solid #fff;
+} */
